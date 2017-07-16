@@ -1,0 +1,21 @@
+[package]
+name = "homeassistant"
+version = "0.1.0"
+description = "home-assistant api client"
+authors = ["kpcyrd <git@rxv.cc>"]
+license = "MIT"
+repository = "https://github.com/kpcyrd/homeassistant-rs"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "kpcyrd/homeassistant-rs" }
+
+[dependencies]
+tokio-core = "0.1.8"
+hyper = "0.11"
+roadrunner = "0.1.1"
+log = "0.3"
+
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
