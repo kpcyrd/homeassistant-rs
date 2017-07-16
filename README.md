@@ -1,4 +1,4 @@
-# homeassistant-rs [![Build Status](https://travis-ci.org/kpcyrd/homeassistant-rs.svg?branch=master)](https://travis-ci.org/kpcyrd/homeassistant-rs) [![Crates.io](https://img.shields.io/crates/v/homeassistant-rs.svg)](https://crates.io/crates/homeassistant-rs)
+# homeassistant-rs [![Build Status](https://travis-ci.org/kpcyrd/homeassistant-rs.svg?branch=master)](https://travis-ci.org/kpcyrd/homeassistant-rs) [![Crates.io](https://img.shields.io/crates/v/homeassistant.svg)](https://crates.io/crates/homeassistant)
 
 ```toml
 [dependencies]
