@@ -5,6 +5,7 @@ description = "home-assistant api client"
 authors = ["kpcyrd <git@rxv.cc>"]
 license = "MIT"
 repository = "https://github.com/kpcyrd/homeassistant-rs"
+categories = ["api-bindings"]
 readme = "README.md"
 
 [badges]
