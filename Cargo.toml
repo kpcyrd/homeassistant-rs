@@ -1,6 +1,6 @@
 [package]
 name = "homeassistant"
-version = "0.1.0"
+version = "0.1.1"
 description = "home-assistant api client"
 authors = ["kpcyrd <git@rxv.cc>"]
 license = "MIT"
