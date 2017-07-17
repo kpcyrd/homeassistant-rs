@@ -1,3 +1,4 @@
+//! Request/Response structs
 use std::collections::HashMap;
 
 use serde_json;

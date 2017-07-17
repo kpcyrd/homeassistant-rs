@@ -1,3 +1,17 @@
+//! API client to work with a remote instance of Home Assistant
+//!
+//! ```no_run
+//! extern crate homeassistant;
+//!
+//! fn main() {
+//!     let client = homeassistant::Client::new("http://192.168.1.2:8123".to_owned(), None);
+//!
+//!     for response in client.get_states().unwrap() {
+//!         let x = client.get_state(&response.entity_id);
+//!         println!("{:?}", x);
+//!     }
+//! }
+//! ```
 extern crate hyper;
 extern crate tokio_core;
 extern crate roadrunner;

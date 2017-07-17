@@ -4,6 +4,7 @@ use hyper;
 use serde_json;
 use roadrunner;
 
+/// A set of errors that can occur.
 #[derive(Debug)]
 pub enum Error {
     Io(io::Error),
